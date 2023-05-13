@@ -11,15 +11,13 @@ if (age >= 18) {
 }
 */
 
-
-
 function main() {
   console.log("Funktion wurde aufgerufen!");
 
-  var input = document.getElementById("inputColor");
-  var color = input.value;
+  let input = document.getElementById("inputColor");
+  let color = input.value;
   //let color = prompt("Trage eine Ampel-Farbe ein!");
-  var lowerCaseName = color.toLowerCase();
+  let lowerCaseName = color.toLowerCase();
 
   // wenn grün -> fahren
   // wenn orange -> anfahren/bremsen
